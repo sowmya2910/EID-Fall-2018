@@ -1,0 +1,35 @@
+<!--
+HTML Login Page that asks user for username and password. If entered correct, this takes the user to index.html - the Client HTML UI/Webpage for a weather monitoring system.
+
+Authors: Sowmya Ramakrishnan and Vinayak Srivatsan Kovalam Mohan
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<script type="text/javascript">
+  function display(form){
+    if (form.USERNAME.value=="username" && form.PASSWORD.value=="psw") {
+      location="index.html"
+    }
+    else {
+      alert("Invalid Entry")
+    }
+  }
+</script>
+<body >
+  <h1 id="page heading">You've got to get this right to continue!</h1>
+<form >
+  <label for="USERNAME" id="USERNAME">USERNAME:</label>
+  <input type="username" id="username" name="USERNAME"></input><br>
+  <label for="PASSWORD" id="PASSWORD">PASSWORD:</label>
+  <input type="password" id="password" name="PASSWORD"></input><br>
+  <input type="button" id="submit" value="Submit" onClick="display(this.form)"></input>
+
+</form>
+
+</body>
+</html>

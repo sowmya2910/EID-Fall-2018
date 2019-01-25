@@ -1,0 +1,80 @@
+body {
+    background-image: url("Blue.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+
+#username{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#password{
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#submit{
+  position: absolute;
+  top: 405px;
+  left: 750px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#USERNAME{
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#PASSWORD{
+  position: absolute;
+  top: 300px;
+  left: 700px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+

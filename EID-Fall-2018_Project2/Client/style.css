@@ -1,0 +1,331 @@
+body {
+    background-image: url("StarryNight.png");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#Current_Temperature_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 150px;
+  left: 125px;
+}
+
+#Current_Temperature_Output{
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 285px;
+  font-size: 16px;
+}
+
+#Current_Temperature_Button{
+  position: absolute;
+  top: 180px;
+  left: 125px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Maximum_Temperature_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 350px;
+  left: 625px;
+}
+
+#Maximum_Temperature_Output{
+  position: absolute;
+  color: white;
+  top: 400px;
+  left: 800px;
+  font-size: 16px;
+}
+
+#Maximum_Temperature_Button{
+  position: absolute;
+  top: 380px;
+  left: 625px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Minimum_Temperature_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 150px;
+  left: 625px;
+}
+
+#Minimum_Temperature_Output{
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 800px;
+  font-size: 16px;
+}
+
+#Minimum_Temperature_Button{
+  position: absolute;
+  top: 180px;
+  left: 625px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Average_Temperature_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 350px;
+  left: 125px;
+}
+
+#Average_Temperature_Output{
+  position: absolute;
+  color: white;
+  top: 400px;
+  left: 285px;
+  font-size: 16px;
+}
+
+#Average_Temperature_Button{
+  position: absolute;
+  top: 380px;
+  left: 125px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Current_Humidity_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 250px;
+  left: 125px;
+}
+
+#Current_Humidity_Output{
+  position: absolute;
+  color: white;
+  top: 300px;
+  left: 275px;
+  font-size: 16px;
+}
+
+#Current_Humidity_Button{
+  position: absolute;
+  top: 280px;
+  left: 125px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Maximum_Humidity_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 450px;
+  left: 625px;
+}
+
+#Maximum_Humidity_Output{
+  position: absolute;
+  color: white;
+  top: 500px;
+  left: 775px;
+  font-size: 16px;
+}
+
+#Maximum_Humidity_Button{
+  position: absolute;
+  top: 480px;
+  left: 625px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Minimum_Humidity_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 250px;
+  left: 625px;
+}
+
+#Minimum_Humidity_Output{
+  position: absolute;
+  color: white;
+  top: 300px;
+  left: 775px;
+  font-size: 16px;
+}
+
+#Minimum_Humidity_Button{
+  position: absolute;
+  top: 280px;
+  left: 625px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Average_Humidity_Label{
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 450px;
+  left: 125px;
+}
+
+#Average_Humidity_Output{
+  position: absolute;
+  color: white;
+  top: 500px;
+  left: 275px;
+  font-size: 16px;
+}
+
+#Average_Humidity_Button{
+  position: absolute;
+  top: 480px;
+  left: 125px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#SwitchUnit{
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+#Clear{
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  background-color: grey; 
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#Logout{
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+  
+#graph_temp{
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#graph_hum{
+  position: absolute;
+  top: 600px;
+  left: 800px;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

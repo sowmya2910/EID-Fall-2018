@@ -1,0 +1,62 @@
+<!--
+HTML WebPage that runs a Weather Monitoring System that allows user to view and toggle between various temperature and humidity values and plots.
+
+Authors: Sowmya Ramakrishnan and Vinayak Srivatsan Kovalam Mohan
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EID Project 2</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="client.js"></script>
+</head>
+<body>
+  <h1 id="page heading">Weather Monitoring System</h1>
+    <div id="connection_details">
+  
+      <label for="current_temp" id="Current_Temperature_Label">Current Temperature: </label>
+      <output type="text" id="Current_Temperature_Output"></output></br>
+      <input type="submit" id="Current_Temperature_Button" value="Click Me!"> </input>
+
+      <label for="max_temp" id="Maximum_Temperature_Label">Maximum Temperature: </label>
+      <output type="text" id="Maximum_Temperature_Output"></output></br>
+      <input type="submit" id="Maximum_Temperature_Button" value="Click Me!"> </input>
+	  
+      <label for="min_temp" id="Minimum_Temperature_Label">Minimum Temperature: </label>
+      <output type="text" id="Minimum_Temperature_Output"></output></br>
+      <input type="submit" id="Minimum_Temperature_Button" value="Click Me!"> </input>
+
+      <label for="avg_temp" id="Average_Temperature_Label">Average Temperature: </label>
+      <output type="text" id="Average_Temperature_Output"></output></br>
+      <input type="submit" id="Average_Temperature_Button" value="Click Me!"> </input>
+
+      <label for="current_hum" id="Current_Humidity_Label">Current Humidity: </label>
+      <output type="text" id="Current_Humidity_Output"></output></br>
+      <input type="submit" id="Current_Humidity_Button" value="Click Me!"> </input>
+
+      <label for="max_hum" id="Maximum_Humidity_Label">Maximum Humidity: </label>
+      <output type="text" id="Maximum_Humidity_Output"></output></br>
+      <input type="submit" id="Maximum_Humidity_Button" value="Click Me!"> </input>
+
+      <label for="min_hum" id="Minimum_Humidity_Label">Minimum Humidity: </label>
+      <output type="text" id="Minimum_Humidity_Output"></output></br>
+      <input type="submit" id="Minimum_Humidity_Button" value="Click Me!"> </input>
+
+      <label for="avg_humidity" id="Average_Humidity_Label">Average Humidity: </label>
+      <output type="text" id="Average_Humidity_Output"></output></br>
+      <input type="submit" id="Average_Humidity_Button" value="Click Me!"> </input>
+
+      <input type="submit" id="SwitchUnit" value="C to F"></input>
+      <input type="reset" id="Clear" value="Clear"></input>
+	  <input type="submit" id="Logout" value="Logout"></input>
+      <input type="submit" id="graph_temp" value="TempGraph"></input>
+      <input type="submit" id="graph_hum" value="HumGraph"></input>'
+
+    <div id="terminal"></div>
+
+</div>
+</body>
+</html>
